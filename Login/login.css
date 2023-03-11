@@ -1,0 +1,124 @@
+@font-face {
+  font-family: 'Axiforma-Medium';
+  src: url(fonts/Axiforma-Medium.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif; /* Note the font family is not added now have to add it later */
+}
+body{
+  font-family: 'Axiforma-Medium', sans-serif;
+}
+
+.campus_account {
+  background-color: #f7f7f7;
+  width: 100%;
+  min-height: 100vh;
+}
+.container {
+  width: 90%;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+/* for the left side of page design css codes */
+.left_side {
+  flex-basis: 50%;
+  padding: 0px 40px;
+}
+.logo {
+  width: 260px;
+}
+.logo img {
+  width: 100%;
+}
+.left_side p {
+  font-size: 16px;
+  color: #013500;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+/* css codes for form  */
+/* right side  */
+
+.right_side {
+  margin-top: 4%;
+  margin-bottom: 3%;
+  flex-basis: 60%;
+  background: #ffffff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.02);
+  border-radius: 10px;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 15%;
+}
+.right_side h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 2em;
+  color: #013500;
+  text-align: center;
+  margin-top: 7%;
+}
+.alignment {
+  vertical-align: middle;
+}
+.right_side p {
+  font-size: 12px;
+  font-weight: 900;
+  color: #013500;
+  text-align: center;
+  line-height: 1.5em;
+  margin-bottom: 30px;
+}
+.right_side a {
+  color: #6cbf31;
+}
+
+form {
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* all inputs having same styles  */
+
+input[type="text"],
+input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: none;
+  box-sizing: border-box;
+  font-size: 14px;
+  background-color: #f3f3f3;
+  color: #013500;
+  font-weight: 500;
+}
+input:focus {
+  outline: 2px solid #6cbf31;
+}
+
+button[type="button"] {
+  /* opacity: 50%; */
+  width: 100%;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 15px 20px;
+  border: none;
+  margin: 0;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 900;
+  border-radius: 30px;
+}
+.invalid {
+  color: #b60000 !important;
+}

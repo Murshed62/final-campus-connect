@@ -1,0 +1,189 @@
+@font-face {
+  font-family: 'Axiforma-Medium';
+  src: url(fonts/Axiforma-Medium.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'axiforma',sans-serif;
+  
+}
+body{
+  font-family: 'Axiforma-Medium', sans-serif;
+}
+
+.campus_account{
+  background-color: #F7F7F7;
+  width: 100%;
+  min-height: 100vh;
+}
+.container{
+  width: 90%;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+/* for the left side of page design css codes */
+.left_side{
+  flex-basis: 40%;
+  padding: 0 40px;
+ 
+}
+.logo {
+  width: 260px;
+}
+.logo img{
+  width: 100%;
+}
+.left_side p{
+  font-size: 16px;
+  color: #013500;
+  font-family: 'axiforma',sans-serif;
+  font-weight:  500;
+  line-height: 26px;
+}
+
+/* css codes for form  */
+/* right side  */
+
+.right_side{
+  margin-top: 4%;
+  margin-bottom: 3%;
+  flex-basis: 56%;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.02);
+  border-radius: 10px;
+  padding: 5% 10%;
+  
+  
+  
+  
+
+  
+
+}
+.right_side h2{
+  margin-top: -20px;
+  font-size: 24px;
+  font-weight: 700;
+  color:#013500;
+  text-align: center;
+}
+.right_side p{
+  font-size: 12px;
+  font-weight: 900;
+  color: #013500;
+  text-align: center;
+  line-height: 1em;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.right_side a{
+  color: #6CBF31;
+}
+
+
+form {
+  width: 75%;  
+  margin: 0 auto;
+  }
+  
+  /* all inputs having same styles  */
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+   select{
+    display: block;
+    width: 100%;
+    padding:  15px 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #F3F3F3;
+    color:#013500;
+    font-weight: 500;
+    letter-spacing: 1.4;
+    border: none;
+  }
+  input:focus, select:focus{
+    outline: 2px solid #6CBF31;
+
+
+  }
+  .select-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    
+  }
+  select.space{
+    margin-right: 15px;
+    
+  }
+
+  .bg-color{
+    color: #757575;
+    background-color: #F3F3F3 !important;
+    
+  }
+  
+  p.left-text{
+    text-align: left !important;
+    margin-top: 30px !important;
+    margin-bottom: 10px !important;
+    font-weight: 500 !important;
+    font-family: 'axiforma',sans-serif;
+  }
+  /* for checkbox color changing  */
+  input[type="checkbox"]{
+    accent-color: #4CAF50;
+    border-radius: 5px;
+   
+  }
+
+  button[type="button"] {
+    /* opacity: 50%; */
+    width: 100%;
+    background-color: #4CAF50;
+    color: #fff;
+    padding:  15px 20px;
+    font-weight: 900;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-bottom: -10px;
+  }
+  .not-matched{
+    font-size: 10px !important;
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    color: #B60000 !important;
+    width: 100% !important;
+  }
+.not-matched i{
+margin-right: 3px;
+margin-left: 3px;
+  }
+
+.dept{
+width: 90%;
+margin-right: 10px;
+}
+.batch{
+width: 90%;
+}
+.c-black{
+  color: black !important;
+}
+
+  
