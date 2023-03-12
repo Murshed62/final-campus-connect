@@ -20,7 +20,7 @@ const createBtn = document.getElementById("create-btn").addEventListener('click'
         return;
     }
     else{
-         window.location.href = 'next.html';    
+         window.location.href = '../News Feeds/index.html';    
     }
 })
 

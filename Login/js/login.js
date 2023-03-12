@@ -12,7 +12,7 @@ let loginBtn = document.getElementById("login-btn").addEventListener('click', fu
         return;
     }
     else{
-        window.location.href = 'next.html';
+        window.location.href = './News Feeds/index.html';
     }
 })
 
