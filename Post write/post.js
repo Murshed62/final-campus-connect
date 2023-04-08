@@ -114,4 +114,14 @@ publicLi2.addEventListener('click', function(){
     btnPrivacy.innerText = publicLi2.innerText;
 })
 
+// write post
+
+let myTextarea = document.getElementById('myTextarea');
+
+const newPost = () =>{
+    let collectText = myTextarea.value;
+    return collectText;
+}
+
+
 

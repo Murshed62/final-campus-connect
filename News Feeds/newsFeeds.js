@@ -64,3 +64,44 @@ const post3 = document.getElementById("post3");
 
 // condition
 const anyTagText = anyTag.innerText;
+
+let dropCheck = document.getElementById('dropCheck');
+let middleWare = document.getElementById("middleWare");
+let checkCSE = document.getElementById("checkCSE");
+let dropDept = document.getElementById("drop-dept"); 
+
+let checkMath = document.getElementById("CheckMath");
+let checkBangla = document.getElementById("CheckBangla");
+let checkBusiness = document.getElementById("CheckBusiness");
+let CheckChemistry = document.getElementById("CheckChemistry");
+let checkLaw = document.getElementById("CheckLaw");
+
+
+
+checkCSE.addEventListener('click', function(){
+    middleWare.classList.remove('d-none')
+})
+checkMath.addEventListener('click', function(){
+    middleWare.classList.add('d-none')
+})
+checkBangla.addEventListener('click', function(){
+    middleWare.classList.add('d-none')
+})
+checkBusiness.addEventListener('click', function(){
+    middleWare.classList.add('d-none')
+})
+CheckChemistry.addEventListener('click', function(){
+    middleWare.classList.add('d-none')
+})
+checklaw.addEventListener('click', function(){
+    middleWare.classList.add('d-none')
+})
+
+
+// new post
+
+let newPost = document.getElementById('new-post');
+
+
+
+
