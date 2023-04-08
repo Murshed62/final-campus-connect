@@ -189,32 +189,7 @@ function NewPosts() {
 </div>
 
 
-<div class="comments">
-    <div class="user-box">
-        <div class="user-info">
-            <div class="user-avater">
-                <img class="me-2" style="width: 37px; height: 37px; border-radius: 50%;" src="./assets/medul.png" alt="">
-            </div>
-            <div class="user-name-roll">
-            <div class="user-name">Medul</div>
-            <div class="user-roll">- 1129</div>
 
-             </div>
-
-             <div class="user-dept-batch">
-                <div class="user-dept">CSE</div>
-                <div class="user-batch"><img class="center" src="../Ellipse 2.png" alt="">29th </div>
-    
-                 </div>
-        </div>
-    </div>
-
-    <div id="get-comments" class="live-comments">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi repudiandae iusto in error, vero ullam ea harum possimus exercitationem voluptas? Fuga quas, dignissimos recusandae obcaecati dolores est quod ea accusamus fugiat quo sit</p>
-    </div>
-
-
-</div>
 
 </div>
         `;
