@@ -1,95 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Post write</title>
-    <link rel="stylesheet" href="post.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="post.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
     <!-- box icons  -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<body>
-
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- post write begains here  -->
     <section class="post">
-        <div class="cancel-button">
-            <a href="../News Feeds/index.html">
-            <img src="Vector (9).png" alt="">
+      <div class="cancel-button">
+        <a href="../News Feeds/index.html">
+          <img src="Vector (9).png" alt="" />
         </a>
-        </div>
-        <div class="flex-div">
-            <div class="user">
-                <div class="user-box">
-                    <div class="user-info">
-                        <div class="user-avater">
-                            <img style="border-radius: 50%;" src="shishir.png" alt="">
-                        </div>
-                        <div class="user-name-roll">
-                        <div id="user-name" class="user-name"></div>
-                        <div class="user-roll">- <span id="roll"></span></div>
-            
-                         </div>
-            
-                         <div class="user-dept-batch">
-                            <div id="user-dept" class="user-dept"></div>
-                            <div class="user-batch"> <img class="center" src="../Ellipse 2.png" alt=""><span id="user-batch"></span></div>
-                
-                             </div>
-                    </div>
+      </div>
+      <div class="flex-div">
+        <div class="user">
+          <div class="user-box">
+            <div class="user-info">
+              <div class="user-avater">
+                <img style="border-radius: 50%" src="shishir.png" alt="" />
+              </div>
+              <div class="user-name-roll">
+                <div id="user-name" class="user-name"></div>
+                <div class="user-roll">- <span id="roll"></span></div>
+              </div>
+
+              <div class="user-dept-batch">
+                <div id="user-dept" class="user-dept"></div>
+                <div class="user-batch">
+                  <img class="center" src="../Ellipse 2.png" alt="" /><span
+                    id="user-batch"
+                  ></span>
                 </div>
-
+              </div>
             </div>
-            <div class="privaciy-button">
-                <button id="btn-privacy" class="dropdown-privacy">Public <span class="btn-spaces"> <i class="bx bxs-down-arrow"></i></span></button>
-                <ul id="drop-privacy" class="dropdown-items drop-size">
-
-
-                </ul>
-            </div>
-        </div>
-
-        
-                <div class="dropdown-tag">
-                
-                <button id="btn-tag" class="dropdown-button"><span id="any-tag">Any Tag</span> <span class="btn-spaces"> <i class='bx bxs-down-arrow'></i></span></button>
-                <ul id="drop-tag" class="dropdown-items drop-size">
-                    
-                  
-                </ul>
-                </div>
-
-        
-
-        <div class="post-content">
-            <textarea name="" id="myTextarea" rows="7" cols="5" placeholder="Write something" ></textarea>
-            <p>Max 300 words</p>
-        </div>
-
-        <div class="post-images">
-            <div class="flex-imagebox">
-                <div class="imgbox"><img src="Rectangle 29 (1).png" alt=""></div>
-                <div class="imgbox"><img src="Rectangle 29.png" alt=""></div>
-                <div class="imgbox"><img src="Rectangle 29 (1).png" alt=""></div>
-                <div class="imgbox"><img src="Rectangle 29.png" alt=""></div>
-                
-            </div>
-        </div>
-        <!-- // this button will add max of 4 images but if no images are seletcted then post images class will be display none -->
-          <div class="btn-image-max">
-            <button>Attach an image (Maximum 4)</button>
           </div>
+        </div>
+        <div class="privaciy-button">
+          <button id="btn-privacy" class="dropdown-privacy">
+            Public
+            <span class="btn-spaces"> <i class="bx bxs-down-arrow"></i></span>
+          </button>
+          <ul id="drop-privacy" class="dropdown-items drop-size"></ul>
+        </div>
+      </div>
 
-          <div class="post-button">
-            <button onclick="newPost()">Post</button>
-          </div>
+      <div class="dropdown-tag">
+        <button id="btn-tag" class="dropdown-button">
+          <span id="any-tag">Any Tag</span>
+          <span class="btn-spaces"> <i class="bx bxs-down-arrow"></i></span>
+        </button>
+        <ul id="drop-tag" class="dropdown-items drop-size"></ul>
+      </div>
 
+      <div class="post-content">
+        <textarea
+          name=""
+          id="myTextarea"
+          rows="7"
+          cols="5"
+          placeholder="Write something"
+        ></textarea>
+        <p>Max 300 words</p>
+      </div>
+
+      <div class="post-images">
+        <div class="flex-imagebox">
+          <div class="imgbox"><img src="Rectangle 29 (1).png" alt="" /></div>
+          <div class="imgbox"><img src="Rectangle 29.png" alt="" /></div>
+          <div class="imgbox"><img src="Rectangle 29 (1).png" alt="" /></div>
+          <div class="imgbox"><img src="Rectangle 29.png" alt="" /></div>
+        </div>
+      </div>
+      <!-- // this button will add max of 4 images but if no images are seletcted then post images class will be display none -->
+      <div class="btn-image-max">
+        <button>Attach an image (Maximum 4)</button>
+      </div>
+
+      <div class="post-button">
+        <button onclick="newPost()">Post</button>
+      </div>
     </section>
 
-
-
-<script src="post.js"></script>
-<script src="../News Feeds/newsFeeds.js"></script>
-</body>
+    <script src="post.js"></script>
+    <script src="../News Feeds/newsFeeds.js"></script>
+  </body>
 </html>
