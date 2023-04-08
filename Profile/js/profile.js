@@ -4,10 +4,48 @@ const user = localStorage.getItem('user');
 const dept = localStorage.getItem('dept');
 const batch = localStorage.getItem('batch');
 
-let userName = document.getElementById('user-name').innerText = `${user}`;
-let roll = document.getElementById('roll').innerText = `${storedRoll}`;
-let depName = document.getElementById('user-dept').innerText = `${dept}`;
-let batchName = document.getElementById('user-batch').innerText = `${batch}th`;
+let userName = document.getElementById('user-namess').innerText = `${user}`;
+let roll1 = document.getElementById('roll1').innerText = `${storedRoll}`;
+let depName = document.getElementById('user-depts').innerText = `${dept}`;
+let batchName = document.getElementById('user-batchs').innerText = `${batch}th`;
+
+// first
+let userName1 = document.getElementById('user-name121').innerText = `${user}`;
+let rollFirst = document.getElementById('roll121').innerText = `${storedRoll}`;
+let depNameFirst = document.getElementById('depName121').innerText = `${dept}`;
+let batchFirst = document.getElementById('batchName121').innerText = `${batch}th`;
+
+
+// second
+let userName2 = document.getElementById('user-name2').innerText = `${user}`;
+let roll2 = document.getElementById('roll2').innerText = `${storedRoll}`;
+let depName2 = document.getElementById('depName2').innerText = `${dept}`;
+let batchName2 = document.getElementById('batchName2').innerText = `${batch}th`;
+
+//third
+let userName3 = document.getElementById('user-name3').innerText = `${user}`; 
+let roll3 = document.getElementById('roll3').innerText = `${storedRoll}`;
+let depName3 = document.getElementById('depName3').innerText = `${dept}`;
+let batchName3 = document.getElementById('batchName3').innerText = `${batch}th`;
+
+// fourth
+let userName4 = document.getElementById('user-name4').innerText = `${user}`; 
+let roll4 = document.getElementById('roll4').innerText = `${storedRoll}`;
+let depName4 = document.getElementById('depName4').innerText = `${dept}`;
+let batchName4 = document.getElementById('batchName4').innerText = `${batch}th`;
+
+//fifth
+let userName5 = document.getElementById('user-name5').innerText = `${user}`; 
+let roll5 = document.getElementById('roll5').innerText = `${storedRoll}`;
+let depName5 = document.getElementById('depName5').innerText = `${dept}`;
+let batchName5 = document.getElementById('batchName5').innerText = `${batch}th`;
+
+//sixth
+let userName6 = document.getElementById('user-name6').innerText = `${user}`; 
+let roll6 = document.getElementById('roll6').innerText = `${storedRoll}`;
+let depName6 = document.getElementById('depName6').innerText = `${dept}`;
+let batchName6 = document.getElementById('batchName6').innerText = `${batch}th`;
+
 
 //end
 
