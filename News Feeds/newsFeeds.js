@@ -10,10 +10,9 @@ let batchName = (document.getElementById(
   "user-batch"
 ).innerText = `${batch}th`);
 
-// let userNamePost = document.getElementById('user-name-post').innerText = `${user}`;
-// let rollPost = document.getElementById('roll-post').innerText = `${storedRoll}`;
-// let deptPost = document.getElementById('dept-post').innerText = `${dept}`;
-// let batchPost = document.getElementById('batch-post').innerText = `${batch}th`;
+
+
+
 
 // page reload
 const refreshPage = () => {
