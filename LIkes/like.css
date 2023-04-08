@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'Axiforma-Medium';
+    src: url(../fonts/Axiforma-Medium.ttf);
+  
+  }
+  @font-face {
+    font-family: 'Axiforma-Bold';
+    src: url(../fonts/Axiforma-Bold.ttf);
+  
+  }
+  @font-face {
+    font-family: 'Axiforma-Regular';
+    src: url(../fonts/Axiforma-Regular.ttf);
+  
+  }
+  @font-face {
+    font-family: 'Axiforma-extrabold';
+    src: url(../fonts/Axiforma-ExtraBold.ttf);
+  
+  }
+  @font-face {
+    font-family: 'Axiforma-Black';
+    src: url(../fonts/Axiforma-Black.ttf);
+  
+  }
+
+
+
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F3F3F3;
+}
+.likes-box{
+    width: 40%;
+    height: 600px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.09);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.09);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.09);
+    overflow: auto;
+    
+}
+
+/* fixed comments numbers  */
+
+.likes-numbers{
+    width: 40%;
+    position:fixed;
+    z-index: 1000;
+    background-color: #ffffff;
+    vertical-align:middle;
+    
+    
+
+    
+}
+.likes-numbers p{
+   font-family: 'axiforma-extrabold';
+   font-size: 16px;
+   color: #013500;
+   text-align: center;
+   padding: 42px 0 30px 0;
+  
+    
+}
+
+
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #fff;
+}
+.scrollbox{
+    width: 100%;
+    padding:5px;
+   
+    
+    
+}
+
+.scrollbox-inner{
+    margin-top: 90px;
+}
+
+.likes{
+    width: 80%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.user-box{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.user-info .user-avater{
+    
+    float: left;
+    
+}
+.user-info .user-avater img{
+    width: 80%;
+}
+
+
+.user-name-roll{
+    display: flex;
+    font-size: 14px;
+    font-family: 'axiforma-bold';
+    color: #013500;
+    
+}
+.user-dept-batch{
+    display: flex;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-family: 'axiforma-medium';
+    color: #858585;
+    
+}
+
+.user-roll{
+    margin-left: 5px;
+}
+
+
+.flex-button{
+
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+   
+
+}
+
+.visit{
+    padding: 7px 14px;
+    font-size: 10px;
+    font-family: 'axiforma-bold';
+    background-color: #858585;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid #858585;
+    cursor: pointer;
+    
+}
+.outline{
+    background-color: #fff;
+    color: #013500;
+    border: 2px solid #013500;
+    margin-left: 7px;
+}
+
+hr{
+    border-width: 1px;
+    border-color: #858585;
+    opacity: .1;
+}

@@ -1,0 +1,440 @@
+@font-face {
+    font-family: 'Axiforma-Medium';
+    src: url(../fonts/Axiforma-Medium.ttf);
+  
+  }
+  @font-face {
+    font-family: 'Axiforma-Bold';
+    src: url(../fonts/Axiforma-Bold.ttf);
+  
+  }
+  @font-face {
+    font-family: 'Axiforma-Regular';
+    src: url(../fonts/Axiforma-Regular.ttf);
+  
+  }
+  @font-face {
+    font-family: 'Axiforma-extrabold';
+    src: url(../fonts/Axiforma-ExtraBold.ttf);
+  
+  }
+  @font-face {
+    font-family: 'Axiforma-Black';
+    src: url(../fonts/Axiforma-Black.ttf);
+  
+  }
+
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background: #F3F3F3;
+    font-family: sans-serif;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #fff;
+}
+
+.left-sidebar{
+    width: 18%;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px ;
+    background: #ffffff;
+    position: fixed;
+    color:#858585;
+
+    
+}
+.left-sidebar .scrollbox{
+   padding: 0;
+    height:100vh ;
+    overflow: auto;
+    
+}
+
+.left-sidebar .scrollbox-inner{
+    margin-top: 0;
+}
+.logo{
+    padding-bottom: 50px;
+}
+
+.logo img{
+    width: 90%;
+    
+}
+
+.active{
+    border: 2px solid #46A644;
+}
+
+
+
+
+
+.middle{
+    width: 64%;
+    background-color: #ffffff;
+    color: #000;
+    position: fixed;
+    top:0;
+    left: 18%;
+    right: 18%;
+    min-height: 10vh;
+    padding: 10px 18%;
+    z-index: 1000;
+    
+
+}
+.middle .back-button{
+   position: absolute;
+   top: 30px;
+   left: 3%;
+   
+}
+.middle .back-button a{
+   vertical-align: middle;
+   text-decoration: none;
+   color: #013500;
+   font-family: 'axiforma-medium';
+   font-size: 14px;
+    
+ }
+ .middle .back-button a img{
+    vertical-align: middle;
+    width: 6px;
+    margin-right: 5px;
+    
+     
+  }
+
+.middle .user-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.middle .user-box .user-info .user-avater{
+    width: 44px;
+    text-align: center;
+    margin: auto;
+}
+.middle .user-box .user-info .user-avater img{
+    width: 100%;
+}
+
+.middle .user-box .user-info .user-avater{ 
+    float: none;
+    
+}
+
+.middle .user-box .user-dept-batch {
+    display: flex;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-family: 'axiforma-medium';
+    color: #858585;
+    align-items: center;
+    justify-content: center;
+}
+.middle .user-name-roll{
+    text-align: center;
+}
+
+.right-sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 18%;
+    height: 100%;
+    background: #ffffff;
+    display: flex;
+}
+
+.scrollbox{
+    padding: 76px 0px 30px 40px;
+    overflow: auto;
+
+
+    
+    
+}
+
+.scrollbox-inner{
+    margin-top: 60px;
+}
+ .text{
+    margin-bottom: 30px;
+    color: #013500;
+
+}
+.fixed-item{
+    position: fixed;
+    background-color: #ffffff;
+    width: 18%;
+    padding: 60px 0px 10px 40px;
+    
+   
+}
+.fixed-item h3{
+    font-size: 16px;
+    font-family: 'axiforma-bold';
+    line-height: 1rem;
+    color: #013500;
+}
+.fixed-item p{
+    font-size: 12px;
+    font-family: 'axiforma-medium';
+    line-height: 1.5rem;
+    color: #013500;
+}
+ h3{
+    font-size: 16px;
+    font-family: 'axiforma-bold';
+    line-height: 1rem;
+}
+h5{
+    font-family: 'axiforma-medium';
+    font-size: 8px;
+    float: right;
+    margin-top: -5px;
+}
+.text p{
+    font-size: 12px;
+    font-family: 'axiforma-medium';
+    line-height: 1.5rem;
+}
+
+.text h3{
+    font-size: 16px;
+    font-family: 'axiforma-bold';
+    line-height: 1rem;
+}
+.text p{
+    font-size: 12px;
+    font-family: 'axiforma-medium';
+    line-height: 1.5rem;
+}
+
+
+.user-box{
+    
+    display: flex;
+    align-items: center;
+}
+.user-info .user-avater{
+    
+    float: left;
+    
+}
+.user-info .user-avater img{
+    width: 80%;
+}
+
+
+.user-name-roll{
+    display: flex;
+    font-size: 14px;
+    font-family: 'axiforma-bold';
+    color: #013500;
+    
+}
+.user-dept-batch{
+    display: flex;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-family: 'axiforma-medium';
+    color: #858585;
+    
+}
+
+.user-roll{
+    margin-left: 5px;
+}
+.visit{
+    margin-top: 10px;
+    padding: 7px 14px;
+    font-size: 10px;
+    font-family: 'axiforma-bold';
+    background-color: #858585;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 50px;
+    border: 2px solid #858585;
+    cursor: pointer;
+    
+}
+.outline{
+    background-color: #fff;
+    color: #013500;
+    border: 2px solid #013500;
+    margin-left: 7px;
+}
+
+.seemore{
+    margin-bottom: 100px;
+   
+    
+    
+}
+.seemore a{
+    font-size: 12px;
+    color: #46A644;
+    font-family: 'axiforma-medium';
+    padding-left: 120px;
+
+}
+
+
+
+/* message box  begin here  */
+.comments{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #F3F3F3;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    outline: #013500;
+}
+.comments p{
+    font-family: 'axiforma-medium';
+    font-size: 12px;
+}
+.message-box{
+    
+    width: 64%;
+    margin: 120px auto 30px;
+    color: #000;
+    padding-top: 10px;
+
+    
+}
+.message-box .all-message{
+    padding: 3% 8%;
+
+}
+.message-box .recive-message{
+    width: 100%;
+    position: relative;
+    
+    
+}
+.message-box .send-message{
+    width: 100%;
+    position: relative;
+    
+    
+}
+.message-box .recive-message .messages{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    
+}
+.message-box .send-message .messages{
+    float: right;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.message-box .recive-message .messages p{
+    margin-left: 15px;
+    font-family: 'axiforma-medium';
+    font-size: 12px;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 10px;
+    
+}
+.message-box .send-message .messages p{
+    margin-right: 15px;
+    font-family: 'axiforma-medium';
+    font-size: 12px;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding:10px 10px;
+    
+}
+.message-box .recive-message  .time p{
+    margin-left: 60px;
+    font-family: 'axiforma-medium';
+    font-size: 10px;
+    color: #000000;
+    margin: 10px 0 10px 60px ;
+
+    
+}
+
+.message-box .send-message .time p{
+    margin-right: 60px;
+    font-family: 'axiforma-medium';
+    font-size: 10px;
+    color: #000000;
+   
+    
+}
+.time-position{
+    position: relative;
+}
+.sendtime{
+    position: absolute;
+    top: 100;
+    right:10px;
+    
+    
+}
+
+
+
+
+.message-send{
+    width: 64%;
+    color: #000;
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    
+}
+
+.write-comments {
+    width: 80%;
+    display: flex;
+    padding: 5px 10px;
+    background-color: #fff;
+    align-items: center;
+    justify-content:space-between;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin: auto;
+    border-radius: 30px;
+}
+.write-comments .text-message{
+    width: 100%;
+    flex-basis: 90%;
+    resize: none;
+    border: none;
+    font-family: 'axiforma-medium';
+    font-size: 14px;
+    outline: none;
+    padding-top: 10px;
+}

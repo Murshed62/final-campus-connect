@@ -1,15 +1,30 @@
+/* fonts links for page  */
+
 @font-face {
   font-family: 'Axiforma-Medium';
-  src: url(fonts/Axiforma-Medium.ttf);
+  src: url(../fonts/Axiforma-Medium.ttf);
+
 }
-* {
+@font-face {
+  font-family: 'Axiforma-Bold';
+  src: url(../fonts/Axiforma-Bold.ttf);
+
+}
+@font-face {
+  font-family: 'Axiforma-Black';
+  src: url(../fonts/Axiforma-Black.ttf);
+
+}
+
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif; /* Note the font family is not added now have to add it later */
+  font-family: 'Axiforma-Medium';
+  
 }
 body{
-  font-family: 'Axiforma-Medium', sans-serif;
+  font-family: 'Axiforma-Medium';
 }
 
 .campus_account {
@@ -38,7 +53,7 @@ body{
 .left_side p {
   font-size: 16px;
   color: #013500;
-  font-weight: 500;
+ font-family: 'axiforma-medium';
   line-height: 26px;
 }
 
@@ -59,7 +74,7 @@ body{
 }
 .right_side h2 {
   font-size: 24px;
-  font-weight: 700;
+  font-family: 'axiforma-bold';
   line-height: 2em;
   color: #013500;
   text-align: center;
@@ -70,7 +85,7 @@ body{
 }
 .right_side p {
   font-size: 12px;
-  font-weight: 900;
+  font-family: 'axiforma-black';
   color: #013500;
   text-align: center;
   line-height: 1.5em;
@@ -99,7 +114,7 @@ input[type="password"] {
   font-size: 14px;
   background-color: #f3f3f3;
   color: #013500;
-  font-weight: 500;
+  font-family: 'axiforma-medium';
 }
 input:focus {
   outline: 2px solid #6cbf31;
@@ -116,7 +131,7 @@ button[type="button"] {
   border-radius: 5px;
   font-size: 14px;
   cursor: pointer;
-  font-weight: 900;
+  font-family: 'axiforma-black';
   border-radius: 30px;
 }
 .invalid {

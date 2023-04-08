@@ -1,0 +1,227 @@
+@font-face {
+    font-family: 'Axiforma-Medium';
+    src: url(../fonts/Axiforma-Medium.ttf);
+  
+  }
+  @font-face {
+    font-family: 'Axiforma-Bold';
+    src: url(../fonts/Axiforma-Bold.ttf);
+  
+  }
+  @font-face {
+    font-family: 'Axiforma-Regular';
+    src: url(../fonts/Axiforma-Regular.ttf);
+  
+  }
+  @font-face {
+    font-family: 'Axiforma-extrabold';
+    src: url(../fonts/Axiforma-ExtraBold.ttf);
+  
+  }
+  @font-face {
+    font-family: 'Axiforma-Black';
+    src: url(../fonts/Axiforma-Black.ttf);
+  
+  }
+
+
+
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F3F3F3;
+}
+.post{
+    width: 40%;
+    height: 600px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.09);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.09);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.09);
+    padding: 2% 5%;
+}
+
+/* button that will cancel the post  */
+.cancel-button{
+    float: right;
+    margin-right:-50px;
+    
+}
+.flex-div{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.user-info .user-avater{
+    
+    float: left;
+    
+}
+.user-info .user-avater img{
+    width: 80%;
+}
+
+
+.user-name-roll{
+    display: flex;
+    font-size: 14px;
+    font-family: 'axiforma-bold';
+    color: #013500;
+    
+}
+.user-dept-batch{
+    display: flex;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-family: 'axiforma-medium';
+    color: #858585;
+    
+}
+
+.user-roll{
+    margin-left: 5px;
+}
+
+.privaciy-button button{
+    padding: 10px 15px;
+    font-size: 14px;
+    font-family: 'axiforma-medium';
+    border-radius: 30px;
+    border: none;
+    outline: 1px #013500;
+    
+}
+
+.dropdown-tag button{
+    padding: 10px 20px;
+    font-size: 12px;
+    font-family: 'axiforma-medium';
+    border: none;
+    background-color: #F3F3F3;
+    color: #013500;
+    border-radius: 5px;
+    position: relative;
+    z-index: auto;
+    margin-bottom: 20px;
+}
+.btn-spaces {
+    padding-left: 40px;
+}
+ .btn-spaces i {
+    color: #013500;
+    font-size: 8px;
+}
+
+
+.dropdown-items {
+    margin-top: 10px;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 5px 3px #F3F3F3;
+}
+.drop-size li {
+    padding: 10px 75px 10px 10px;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    list-style: none;
+    color: #013500;
+    margin-top: 5px;
+    border-bottom: 0.1px solid #F3F3F3;
+    font-size: 14px;
+    font-family: 'axiforma-medium';
+    cursor: pointer;
+}
+
+.post-content{
+    width: 100%;
+}
+.post-content textarea{
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #858585;
+    border-radius: 5px;
+    resize: none;
+    outline-color: #013500;
+    
+}
+textarea::placeholder{
+    font-family: 'axiforma-medium';
+}
+.post-content p{
+    font-family: 'axiforma-medium';
+    float: right;
+    font-size: 12px;
+    color: #858585;
+}
+
+.post-images {
+    width: 100%;
+   
+}
+
+.post-images .flex-imagebox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+.flex-imagebox .imgbox{
+    width: 23% ;
+    border-radius: 5px;
+}
+.flex-imagebox .imgbox img{
+    width: 100% ;
+}
+
+
+.btn-image-max{
+    width: 100%;
+}
+.btn-image-max button{
+    width: 100%;
+    padding: 10px 18px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-family: 'axiforma-extrabold';
+    border: 2px solid #013500;
+    color: #013500;
+    background-color: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.post-button {
+    width: 100%;
+}
+.post-button button{
+    width: 100%;
+    padding: 10px 18px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-family: 'axiforma-extrabold';
+    border: 2px solid #013500;
+    color: #FFFFFF;
+    background-color: #013500;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
