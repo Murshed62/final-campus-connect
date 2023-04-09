@@ -166,8 +166,8 @@ function NewPosts() {
 </div>
 <hr>
 <div class="like-comment">
-    <div class="likes"><img class="align" src="Vector 1.png" alt=""> <a class="like-link" href=""><span id="count-likes">24 </span>likes</a></div>
-    <div class="comment"><a href="" class="comment-link"> comments<span id="count-comments"> 34 </span></a></div>
+    <div class="likes"><img class="align" src="Vector 1.png" alt=""> <a class="like-link" href=""><span id="count-likes">0 </span>likes</a></div>
+    <div class="comment"><a href="" class="comment-link"> comments<span id="count-comments"> 0 </span></a></div>
 </div>
 <div class="write-comments">
     
